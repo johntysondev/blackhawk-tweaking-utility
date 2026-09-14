@@ -2,7 +2,7 @@
 
 # BlackHawk
 
-**One-click PC performance optimizer for Fortnite and competitive shooters.**
+**One-click PC performance optimizer for Retrac and competitive shooters.**
 
 [![Website](https://img.shields.io/badge/Website-blackhawk.onrender.com-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://blackhawk.onrender.com)
 [![Download](https://img.shields.io/badge/Download-BlackHawk.exe-000000?style=for-the-badge&logo=windows&logoColor=white)](https://blackhawk.onrender.com#download)
@@ -25,12 +25,12 @@ No ads. No account. No data collection. Just performance.
 ## Features
 
 ### One-Click Optimization
-Hit "Recommended" and BlackHawk applies every safe tweak instantly. Game Mode, power plans, GPU priority, network profile, Fortnite config, NVIDIA profiles, legacy DX11 mode, display overclock, startup cleanup.
+Hit "Recommended" and BlackHawk applies every safe tweak instantly. Game Mode, power plans, GPU priority, network profile, Retrac config, NVIDIA profiles, legacy DX11 mode, display overclock, startup cleanup.
 
 ### 100% Reversible
 Every tweak saves the original value before changing it. Hit Restore and your PC is exactly as it was. No registry residue, no orphaned backups.
 
-### Fortnite-Specific Tweaks
+### Retrac-Specific Tweaks
 - **Performance Config** -- No shadows, low effects, 240 FPS cap, fullscreen, mouse accel off
 - **Legacy DX11 Mode** -- Writes `-d3d11` to Epic launcher for lowest input delay
 - **NVIDIA Max-FPS Profile** -- Reflex ON, uncapped FPS, VSync off, fast launch flags
@@ -65,7 +65,7 @@ Enumerates every third-party app, shortcut, and scheduled task that launches wit
 | Profile | Tweaks | Description |
 |---------|--------|-------------|
 | **Essential** | 5 | Game Mode, Game DVR, Visual FX, Mouse Accel, Keyboard Filter. Zero risk. |
-| **Recommended** | 18 | Everything in Essential plus power plan, GPU priority, network, telemetry, Fortnite config. Fully reversible. |
+| **Recommended** | 18 | Everything in Essential plus power plan, GPU priority, network, telemetry, Retrac config. Fully reversible. |
 | **Aggressive** | 24 | Every available optimization. GPU scheduler, timer resolution, startup killer. Max performance. |
 
 ---
@@ -112,7 +112,7 @@ The output will be in `dist/BlackHawk.exe`.
 ```
 BlackHawk/
   blackhawk_tweak.py    # Main UI (CustomTkinter)
-  tweaks.py             # Core tweak engine (registry, Fortnite, display, scoring)
+  tweaks.py             # Core tweak engine (registry, Retrac, display, scoring)
   hawk.ico              # App icon
   requirements.txt      # Dependencies
   website/              # Marketing site
